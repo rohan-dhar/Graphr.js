@@ -53,8 +53,8 @@ Returns a new Graphr object with the settings provided.
 	});
 </code>
 
-<br><br>
+<br>
 
 The above code will generate the following graph.
-<br>
+<br><br>
 <img src="/readmeFiles/constructorExample.png" alt="Contructor output">
