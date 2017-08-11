@@ -40,6 +40,7 @@ Creates a new Graphr object with the settings provided.
 
 <b>Note</b>
 <br>
+The constructor <b>must</b> be called after the document is ready and loaded.
 All the settings of the Graphr object can be modified later on (Refer to Modifying Graphr Settings).
 
 <h4>Return Value</h4>
