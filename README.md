@@ -23,7 +23,7 @@ Creates a new Graphr object with the settings provided.
 
 <ul>
 	<li>
-		<b><code>settings</code></b> - object - optional: An object passed to the contructor containing the settings for the Graphr object. The following properties of the <code>settings</code> can be provided to be used in the returned Graphr object.
+		<b><code>settings</code></b> - <i>object</i> - <i>optional</i>: An object passed to the contructor containing the settings for the Graphr object. The following properties of the <code>settings</code> can be provided to be used in the returned Graphr object.
 		<ol>
 			<li><b><code>height</code></b>: An integer specifying the height of the graph in pixels.</li>
 			<li><b><code>width</code></b>: An integer specifying the width of the graph.</li>
@@ -37,7 +37,7 @@ Creates a new Graphr object with the settings provided.
 		</ol>
 	</li>
 	<li>
-		<b><code>canvasElement</code></b> - HTML Canvas Element - optional: Graphr.js renders the graphs on a canvas elements which it creates on its own. If however, you want to provide your own canvas element on which Graphr.js must draw the graphs, you can do so by providing the canvas element itself as the second parameter. You may want to do this for several reasons like, adding your own CSS styling to the graph, for an example.
+		<b><code>canvasElement</code></b> - <i>HTML Canvas Element</i> - <i>optional</i>: Graphr.js renders the graphs on a canvas elements which it creates on its own. If however, you want to provide your own canvas element on which Graphr.js must draw the graphs, you can do so by providing the canvas element itself as the second parameter. You may want to do this for several reasons like, adding your own CSS styling to the graph, for an example.
 	</li>
 
 
