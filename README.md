@@ -43,10 +43,17 @@ Returns a new Graphr object with the settings provided.
 
 <h4>Example</h4>
 <code>
-	var graph = new Graphr({
-		backgroundColor: "#222",
-		gridColor: "#fff",
-		rangeStart: -20,
-		rangeEnd: 20,
+	var graph = new Graphr({ <br>
+		height: 400, <br>
+		width: 400, <br>
+		backgroundColor: "#222",<br>
+		gridColor: "#666",<br>
+		rangeStart: -5,<br>
+		rangeEnd: 5<br>
 	});
 </code>
+
+<br>
+
+The above code will generate the following graph.
+<img src="/readmeFiles/constructorExample.png" alt="Contructor output">
