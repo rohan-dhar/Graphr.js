@@ -48,6 +48,7 @@ Returns a new Graphr object with the settings provided.
 
 <h4>Example</h4>
 <code>
+
 	var graph = new Graphr({ 
 
 		height: 400, 
