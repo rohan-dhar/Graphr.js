@@ -49,5 +49,4 @@ Returns a new Graphr object with the settings provided.
 		rangeStart: -20,
 		rangeEnd: 20,
 	});
-
 </code>
