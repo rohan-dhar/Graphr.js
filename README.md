@@ -48,13 +48,20 @@ Returns a new Graphr object with the settings provided.
 
 <h4>Example</h4>
 <code>
-	var graph = new Graphr({ <br>
-		height: 400, <br>
-		width: 400, <br>
-		backgroundColor: "#222",<br>
-		gridColor: "#666",<br>
-		rangeStart: -5,<br>
-		rangeEnd: 5<br>
+	var graph = new Graphr({ 
+
+		height: 400, 
+	
+		width: 400, 
+	
+		backgroundColor: "#222",
+	
+		gridColor: "#666",
+	
+		rangeStart: -5,
+	
+		rangeEnd: 5
+	
 	});
 </code>
 
@@ -93,14 +100,23 @@ Returns a number specifying the id of the graph. It is a good to store the retur
 <h4>Example</h4>
 <code>
 	var graph = new Graphr({ 
+
 		height: 400, 
+	
 		width: 400, 
+	
 		backgroundColor: "#222",
+	
 		gridColor: "#666",
+	
 		rangeStart: -3,
+	
 		rangeEnd: 3
+	
 	});
+	
 	graph.addGraph(function(x){return x * x;}, "#2ecc81");
+	
 	graph.addGraph(function(x){return Math.sin(x);}, "#ff5155");
 
 </code>
