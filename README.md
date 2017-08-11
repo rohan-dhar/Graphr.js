@@ -32,8 +32,13 @@ Creates a new Graphr object with the settings provided.
 			<li><b><code>gridColor</code></b>: A string specifying the color of grid of the graph if the <code>grid</code> property is true. The string can be any of the CSS colors, including HEX, RGB or color names like red, blue, pink etc.</li>
 			<li><b><code>rangeStart</code></b>:  An integer specifying the starting point of the x axis of the graph.</li>
 			<li><b><code>rangeStart</code></b>: An integer specifying the ending point of the x axis of the graph.</li>
-			<br><br>
+			<br>
 			<p>Any graph will be drawn between x = rangeStart and x = rangeEnd. rangeEnd must be larger than rangeStart.</p>
 		</ol>
 	</li>
+	<li>
+		<b><code>canvasElement</code></b> - HTML Canvas Element - optional: Graphr.js renders the graphs on a canvas elements which it creates on its own. If however, you want to provide your own canvas element on which Graphr.js must draw the graphs, you can do so by providing the canvas element itself as the second parameter. You may want to do this for several reasons like, adding your own CSS styling to the graph, for an example.
+	</li>
+
+
 </ul>
