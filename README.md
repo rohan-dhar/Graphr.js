@@ -71,7 +71,7 @@ The above code will generate the following graph.
 </p>
 
 <h4>Parameters</h4>
-<code>.addgraph(equation, graphColor)</code>
+<code>.addGraph(equation, graphColor)</code>
 
 <ul>
 	<li>
@@ -96,10 +96,9 @@ Returns a number specifying the id of the graph. It is a good to store the retur
 		width: 400, 
 		backgroundColor: "#222",
 		gridColor: "#666",
-		rangeStart: -5,
-		rangeEnd: 5
+		rangeStart: -3,
+		rangeEnd: 3
 	});
-
 	graph.addGraph(function(x){return x * x;}, "#2ecc81");
 	graph.addGraph(function(x){return Math.sin(x);}, "#ff5155");
 
