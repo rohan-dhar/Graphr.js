@@ -32,9 +32,8 @@ Creates a new Graphr object with the settings provided.
 			<li><b><code>gridColor</code></b>: A string specifying the color of grid of the graph if the <code>grid</code> property is true. The string can be any of the CSS colors, including HEX, RGB or color names like red, blue, pink etc.</li>
 			<li><b><code>rangeStart</code></b>:  An integer specifying the starting point of the x axis of the graph.</li>
 			<li><b><code>rangeStart</code></b>: An integer specifying the ending point of the x axis of the graph.</li>
-			<p>
-				Any graph will be drawn between x = rangeStart and x = rangeEnd. rangeEnd must be larger than rangeStart.
-			</p>
+			<br><br>
+			<p>Any graph will be drawn between x = rangeStart and x = rangeEnd. rangeEnd must be larger than rangeStart.</p>
 		</ol>
 	</li>
 </ul>
