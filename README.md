@@ -38,6 +38,10 @@ Creates a new Graphr object with the settings provided.
 	</li>
 </ul>
 
+<b>Note</b>
+<br>
+All the settings of the Graphr object can be modified later on (Refer to Modifying Graphr Settings).
+
 <h4>Return Value</h4>
 Returns a new Graphr object with the settings provided.
 
@@ -53,9 +57,57 @@ Returns a new Graphr object with the settings provided.
 	});
 </code>
 
-<br><br>
+<br>
+
 
 The above code will generate the following graph.
 <br><br>
 <img src="/readmeFiles/constructorExample.png" alt="Contructor output">
 
+<h3>Adding Graphs</h3>
+
+<p>
+	The Graphr object can be thought of like a graph paper. You can add multiple graphs to it and they will be drawn onto the "graph paper" . The equations are added using the <code> .addGraph() </code> method.	
+</p>
+
+<h4>Parameters</h4>
+<code>.addgraph(equation, graphColor)</code>
+
+<ul>
+	<li>
+		<code><b> equation </b></code>	- <i>function</i> - <i>required</i>: The equation of the graph to be drawn. The equation is a function which receives a number as a parameter and should return a number.
+	</li>
+	<li>
+		<code><b> graphColor </b></code>	- <i>string</i> - <i>optional</i>: A string specifying the color of the graph to be drawn. The string can be any of the CSS colors, including HEX, RGB or color names like red, blue, pink etc. Default: "#ff5155"</li>
+	</li>
+</ul>
+
+<b>Note</b>
+<br>
+Several graphs can be added to a single Graphr object. They can even be modified later on (Refer to Modifying Existing Graphs).
+
+<h4>Return Value</h4>
+Returns a number specifying the id of the graph. It is a good to store the returned id for it is used to make any changes to the graph drawn later (Refer to Modifying Existing Graphs).
+
+<h4>Example</h4>
+<code>
+	var graph = new Graphr({ 
+		height: 400, 
+		width: 400, 
+		backgroundColor: "#222",
+		gridColor: "#666",
+		rangeStart: -5,
+		rangeEnd: 5
+	});
+
+	graph.addGraph(function(x){return x * x;}, "#2ecc81");
+	graph.addGraph(function(x){return Math.sin(x);}, "#ff5155");
+
+</code>
+
+<br>
+
+
+The above code will generate the following graph.
+<br><br>
+<img src="/readmeFiles/addGraphExample.png" alt=".addGraph() output">
